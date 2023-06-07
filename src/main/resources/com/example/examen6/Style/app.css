@@ -1,0 +1,139 @@
+#mainPanel{
+    -fx-background-color: rgb(185,186,204);
+    -fx-spacing: 0px;
+    -fx-alignment: center;
+}
+
+#header{
+    -fx-background-image: url(../Imagen/nevado.jpg);
+    -fx-background-size: 400,200;
+    -fx-background-repeat: no-repeat;
+    -fx-pref-width: 400;
+    -fx-pref-height: 200;
+    -fx-background-position: center;
+    -fx-alignment: bottom-center;
+
+
+}
+
+#button {
+    -fx-background-image: url(../imagen/Profile.png);
+    -fx-background-color: #B0B3C4;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 60,60;
+    -fx-pref-height: 60;
+    -fx-pref-width: 60;
+    -fx-border-color: rgb(185,186,204);
+
+}
+#main{
+    -fx-pref-width: 400;
+    -fx-pref-height: 400;
+    -fx-background-color: rgb(185,186,204);
+    -fx-background-position: center;
+    -fx-spacing: 0px;
+}
+
+
+#1panel{
+    -fx-pref-width: 400;
+    -fx-pref-height: 40;
+    -fx-alignment: center;
+
+}
+
+#imagenBoton {
+    -fx-background-image: url(../imagen/MaleUser.png);
+    -fx-background-position: center;
+    -fx-background-color: #B0B3C4;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 40,40;
+    -fx-pref-height: 40;
+    -fx-pref-width: 40;
+}
+
+
+#2panel{
+    -fx-pref-width: 400;
+    -fx-pref-height: 40;
+    -fx-alignment: center;
+
+}
+
+#imagenBoton2 {
+    -fx-background-image: url(../imagen/Secure.png);
+    -fx-background-position: center;
+    -fx-background-color: #B0B3C4;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 40,40;
+    -fx-pref-height: 40;
+    -fx-pref-width: 40;
+}
+
+#etiquetas{
+    -fx-alignment: center;
+    -fx-pref-width: 400;
+    -fx-pref-height: 50;
+    -fx-padding: 40;
+
+}
+
+#txtTouchText{
+    -fx-fill: black;
+    -fx-font-family: bold;
+    -fx-font-size: 20;
+}
+
+#txtTouchText2{
+    -fx-font-size: 14;
+}
+
+#checkbox{
+    -fx-pref-width: 400;
+    -fx-pref-height: 40;
+    -fx-padding: 0;
+}
+
+#izquierda{
+    -fx-pref-width: 280;
+    -fx-pref-height: 40;
+    -fx-alignment: center-right;
+
+}
+
+#derecha{
+    -fx-pref-width: 125;
+    -fx-pref-height: 40;
+    -fx-alignment: center-left;
+}
+
+#loginpanel{
+    -fx-pref-width: 400;
+    -fx-pref-height: 40;
+
+}
+
+#izquierda2{
+    -fx-pref-width: 288;
+    -fx-pref-height: 40;
+
+}
+
+#login {
+    -fx-pref-width: 400;
+    -fx-pref-height: 50;
+    -fx-alignment: center-left;
+
+}
+#entrar {
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: #282924;
+    -fx-pref-height: 30;
+    -fx-pref-width: 150;
+}
+
+
+
+

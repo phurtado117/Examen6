@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.CheckBox?>
+<VBox fx:id="mainPanel" styleClass="vbox-class" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.examen6.HelloController">
+
+          <VBox fx:id="header" styleClass="vbox-class">
+
+              <Button styleClass="button-Class" fx:id="button" />
+
+          </VBox>
+    <VBox fx:id="main" styleClass="vbox-class" >
+
+        <VBox fx:id="etiquetas" styleClass="v-box" >
+            <Text fx:id="txtTouchText" >
+                ¡Bienvenidos otra vez!
+            </Text>
+            <Text fx:id="txtTouchText2" >
+                Ingrese su cuenta
+            </Text>
+        </VBox>
+
+
+        <HBox fx:id="1panel" styleClass="h-box" >
+            <Button fx:id="imagenBoton" /> <TextField fx:id="recuadro"/>
+        </HBox>
+
+        <HBox fx:id="2panel" styleClass="h-box" >
+            <Button fx:id="imagenBoton2" /> <TextField fx:id="recuadro2"/>
+        </HBox>
+
+        <HBox styleClass="hbox-class" fx:id="checkbox">
+            <VBox fx:id="izquierda">
+                <Label styleClass="label-class" fx:id="checksave">
+                    Recuerdame
+                </Label>
+            </VBox>
+
+            <VBox fx:id="derecha" >
+                <CheckBox mnemonicParsing="false" />
+            </VBox>
+        </HBox>
+
+        <HBox fx:id="loginpanel" >
+            <VBox fx:id="izquierda2" styleClass="vbox-class" >
+
+            </VBox>
+
+
+            <VBox styleClass="vbox-class" fx:id="login" >
+               <Button fx:id="entrar" text="Login"/>
+            </VBox>
+
+    </HBox>
+
+
+
+
+</VBox>
+</VBox>
